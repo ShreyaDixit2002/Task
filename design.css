@@ -1,0 +1,147 @@
+body {
+    background-image:linear-gradient(purple, blue);
+}
+
+/* .head1 {
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    /* font-size: 60px; */
+    /* color: white; */
+
+.head2 {
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    margin-top: 40px;
+    font-size: 20px;
+    /* color: white; */
+    /* color-m */
+    /* background-image:linear-gradient(purple, blue); */
+    /* color: blueviolet */
+    /* color */
+    /* line-height: 20px; */
+    /* colorm */
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-color: black;
+    /* border-radius: 10px; */
+    align-items: center;
+    text-align: center;
+    /* background: rgba(255, 255, 255, .6); */
+    /* transition: transform .2s; */
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10 {
+    /* background-color: aqua; */
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    background: white;  
+    /* flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;  */
+  flex: 1;
+    /* box-sizing: border-box; */
+    padding: 90px;
+    /* width: 20px; */
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    /* height: 30px; */
+    margin: 20px;
+    /* margin-bottom: px; */
+    /* width: 0px; */
+    /* align-content: center; */
+    flex: 0 0 20.3333%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    transition: transform .2s;
+    
+}
+
+.item1:hover, .item2:hover, .item3:hover, .item4:hover, .item5:hover, .item6:hover, .item7:hover, .item8:hover, .item9:hover, .item10:hover {
+    transition: transform .2s ease-in-out;
+    transform: scale(1.2);
+    cursor: pointer;
+    text-decoration: underline;
+    /* color: rgb(84, 10, 153); */
+    background-color: #bcbaba;
+    /* transition: transform .3s; */
+}
+
+.wrapper{
+    margin-top: 50px;
+    background-color: transparent;
+  }
+  
+  .wrapper h1{
+   /* font-family: 'Courier New', Courier, monospace; */
+   font-family: 'Patua One', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+  }
+  
+  .team .team_member{
+    background: #fff;
+    margin: 10px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;  
+    position: relative;
+    border-radius:12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .team .team_member h3{
+    color: #000;
+    font-size: 26px;
+    margin-top: 50px;
+  }
+  
+  .team .team_member p.role{
+    color: blueviolet;
+    margin: 12px 0;
+    font-size: 13px;
+    font-weight:bold;
+    text-transform: uppercase;
+  }
+  
+  .team .team_member .team_img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+    border:5px solid blueviolet;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .team .team_member .team_img img{
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    border-radius: 50%;
+  }
+
+  /* .team:hover {
+    transition: transform .2s;
+  } */
